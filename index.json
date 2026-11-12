@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "title": {
+    "zh": "Punx 的插件索引",
+    "en": "Punx's plugin index"
+  },
+  "description": {
+    "zh": "精选自 GitHub 的 DSH 插件，已逐个校验 manifest。",
+    "en": "Curated DSH plugins, each manifest verified."
+  },
+  "metadata": {
+    "categories": {
+      "create": {
+        "title": {
+          "zh": "三维创作",
+          "en": "3D creation"
+        }
+      },
+      "tools": {
+        "title": {
+          "zh": "效率工具",
+          "en": "Productivity"
+        }
+      },
+      "look": {
+        "title": {
+          "zh": "界面美化",
+          "en": "Appearance"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-blender-plugin",
+      "title": {
+        "zh": "Blender 直连",
+        "en": "Blender bridge"
+      },
+      "description": {
+        "zh": "让智能体直接驱动本机 Blender 建模和改视口，适合三维创作。",
+        "en": "Let the agent drive local Blender for modeling."
+      },
+      "repository": {
+        "url": "https://github.com/sixtysevenlf/dsh-blender-plugin"
+      },
+      "metadata": {
+        "category": "create",
+        "keywords": [],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "3.0.6",
+          "publishTimestamp": 1793865233,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-better-sidebar",
+      "title": {
+        "zh": "增强侧边栏",
+        "en": "Better sidebar"
+      },
+      "description": {
+        "zh": "在侧边栏加入文件浏览、终端、Git 和子代理页面。",
+        "en": "Adds file, terminal, Git and sub-agent pages."
+      },
+      "repository": {
+        "url": "https://github.com/omdsh-dev/DSH-better-sidebar"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.32.1",
+          "publishTimestamp": 1794491586,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-wallpaper-engine",
+      "title": {
+        "zh": "动态壁纸",
+        "en": "Wallpaper engine"
+      },
+      "description": {
+        "zh": "给界面换上动态或图片壁纸，可自定义并自动省电。",
+        "en": "Animated or image wallpaper for the UI."
+      },
+      "repository": {
+        "url": "https://github.com/elysia395/dsh-wallpaper-engine"
+      },
+      "metadata": {
+        "category": "look",
+        "keywords": [],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.4.2",
+          "publishTimestamp": 1793903239,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-blender-3d",
+      "title": {
+        "zh": "Blender 基础建模",
+        "en": "Blender primitives"
+      },
+      "description": {
+        "zh": "通过指令创建基础几何体、布尔运算等建模操作。",
+        "en": "Create primitives and boolean operations."
+      },
+      "repository": {
+        "url": "https://github.com/walkzzz/dsh-plugin-blender-3d"
+      },
+      "metadata": {
+        "category": "create",
+        "keywords": [],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1787628571,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    }
+  ]
+}
